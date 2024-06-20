@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fb3d6d2710.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css"> 
+    <script src="home.js"></script>
+    
+</head>
+<body>
+    <div class = 'welcome-label'>Welcome <span>Todi</span></div>
+    <div class="create-task">
+        <h1 class="create-task-heading"><i class="fas fa-clipboard-list"></i> CREATE NEW TASK</h1>
+
+        <form  class="postTasks" >
+            <input type="text" class="tinput  task-na" name = 'name' placeholder="Enter Task Name">
+            <input type="text" class="tinput  task-desc" name = 'desc' placeholder="Enter Task Description">
+
+            <div  class="post-task-btn">CREATE TASK</div>
+        </form>
+    </div>
+    <div class="all-tasks-section pending-tasks-section" >
+        
+    </div>
+
+    <div class="all-tasks-section completed-tasks-section">
+        
+    </div>
+
+
+
+
+    <script src="home.js"></script>
+</body>
+</html>

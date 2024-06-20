@@ -1,0 +1,247 @@
+:root
+{
+    font-size :1vw;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+
+
+.left-home
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 12% 5% 12% ;
+    align-items: center;
+}
+
+.login-section
+{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-heading h1
+{
+    margin-bottom: 8px;
+}
+
+.home-heading p
+{
+    margin-bottom: 50px;
+    font-weight: 500;
+    color: rgb(116, 116, 116);
+}
+
+.google-signin
+{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 8px lightgray;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+
+.google-signin img
+{
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.home-form
+{
+    position: relative;
+    border-top: 1px solid rgb(201, 199, 199);
+    
+}
+
+.sin-username
+{
+    
+    color: rgb(206, 204, 204);
+    position: relative;
+    background-color: white;
+    width: fit-content;
+    padding: 0 8px 0 8px;
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.labels
+{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.email-section
+{
+    
+    height: 30%;
+    width: 100%;
+}
+
+.inputs
+{
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    box-shadow: 0 0 8px lightgray;
+    border: none;
+    outline: #102f47f8;
+    padding-left: 20px;
+}
+
+.aux-info
+{
+    margin-top:20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-shi
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 34%;
+    margin-bottom: 10px;
+}
+
+.login-btn
+{
+    background-color: #102f47f8;
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 8px lightgray;
+    margin-bottom: 40px;  
+    color: white; 
+    cursor: pointer;
+}
+
+.right-home
+{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+.right-home img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h4
+{
+    opacity: 0.7;
+}
+a{
+    text-decoration: none;
+    color: #102f47f8;
+}
+.ch
+{
+    transition: opacity 0.1s ease;
+    opacity: 0;
+    animation:showLetter 0.1s ease forwards;
+}
+.oneL
+{
+    animation-delay: 0.2s;
+}
+.oneo
+{
+    animation-delay: 0.4s;
+}
+.oneg
+{
+    animation-delay: 0.6s;
+}
+.onei
+{
+    animation-delay: 0.8s;
+}
+.onen
+{
+    animation-delay: 1s;
+}
+.one1
+{
+    animation-delay: 1.2s;
+}
+.one2
+{
+    animation-delay: 1.4s;
+}
+.one3
+{
+    animation-delay: 1.6s;
+}
+
+.rebtn
+{
+    margin-top: 30px;
+    background-color: #102f47f8;
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 8px lightgray;
+    margin-bottom: 40px;  
+    color: white; 
+    cursor: pointer;
+}
+
+.home-heading span
+{
+    margin: -2px;
+}
+
+@keyframes showLetter {
+    
+    to
+    {
+        opacity: 1;
+    }
+}
