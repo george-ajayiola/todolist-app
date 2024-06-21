@@ -4,7 +4,7 @@ metadata:
   name: finaltodoapp
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: todoapp=georgeao/finaltodoapp
+    argocd-image-updater.argoproj.io/image-list: georgeao/finaltodoapp
     argocd-image-updater.argoproj.io/todoapp.update-strategy: digest
 spec:
   project: default
