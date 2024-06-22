@@ -1,11 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: finaltodoapp
+  name: my-test-app
   namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: georgeao/finaltodoapp
     argocd-image-updater.argoproj.io/todoapp.update-strategy: digest
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
 spec:
   project: default
   source:
