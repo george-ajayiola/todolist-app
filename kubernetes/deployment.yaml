@@ -17,6 +17,6 @@ spec:
       containers:
       - name: todo-app
         imagePullPolicy: Always
-        image: georgeao/finaltodoapp:1.0.1
+        image: georgeao/finaltodoapp:1.0.3
         ports:
         - containerPort: 3000
