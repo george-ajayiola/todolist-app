@@ -5,11 +5,7 @@ metadata:
   namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: georgeao/finaltodoapp
-    #argocd-image-updater.argoproj.io/todoapp.update-strategy: digest
-    argocd-image-updater.argoproj.io/finaltodoapp.update-strategy: semver
-    argocd-image-updater.argoproj.io/finaltodoapp.semver: "~1.0"
-    argocd-image-updater.argoproj.io/write-back-method: git
-    argocd-image-updater.argoproj.io/git-branch: main
+    argocd-image-updater.argoproj.io/todoapp.update-strategy: digest
 spec:
   project: default
   source:
